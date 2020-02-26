@@ -14,7 +14,6 @@ try:
         for data in soup.find_all('table', {'id' : 'players'}):
             for eachData in data.find_all('tr'):
                 pName = eachData.find('th').text
-
                 cells =  eachData.find_all('td')
                 if not cells:
                     continue
