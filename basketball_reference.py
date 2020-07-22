@@ -22,7 +22,7 @@ try:
                 content.append(con)
         print("Page", ch, "done.")
 
-    # Final content - a huge array
+    # Final content - a huge array contains all info all together
     print(content)
 
     with open("output.csv", 'w', newline='', encoding='utf-8') as csvfile:
